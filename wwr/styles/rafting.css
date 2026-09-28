@@ -71,7 +71,8 @@ h1 {
     width: 97%;
     top: 100px;
     left: 10px;
-    background-color: #556b2fb9;
+    background-color: var(--accent2-color);
+    opacity: 0.9;
     color: #ffffff;
     padding: 0;
     font-size: 13px;
