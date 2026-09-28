@@ -71,11 +71,12 @@ h1 {
     width: 97%;
     top: 100px;
     left: 10px;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     opacity: 0.9;
     color: #ffffff;
     padding: 0;
     font-size: 13px;
+    border: 2px solid var(--accent2-color);
 
 }
 
@@ -84,4 +85,5 @@ h1 {
     width: 125px;
     margin-left: 10px;
     padding: 4px;
+
 }
