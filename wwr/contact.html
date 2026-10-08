@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting web site | Contact Us</title>
+    <meta name="description" content="Find different ways to contact our company.">
+    <meta name="author" content="Alejandro Beltrán">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting_logo.png" alt="a logo of the rafting company">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Company Info -->
+        <section class="company-info">
+            <h2>White Water Rafting Company</h2>
+            <address>
+                <p>123 Rapid River Way, Boise, ID 83702</p>
+                <a href="tel:2085550199">(208) 555-0199</a><br>
+                <a href="mailto:info@whitewateradventures.com">info@whitewateradventures.com</a>
+            </address>
+        </section>
+
+        <!-- FORM AND MAP -->
+        <div class="map-form">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2888.858027991497!2d-116.20629852275671!3d43.60949757110422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRapid%20River%20Way%2C%20Boise%2C%20ID%2083702!5e0!3m2!1ses!2sco!4v1791328996018!5m2!1ses!2sco"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            <!-- name and email -->
+            <form>
+                <div class="box-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Joseph Smith">
+                </div>
+                <div class="box-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email@byu.com"
+                      required>
+                </div>
+
+                <!--  purpose -->
+                <div class="box-item radio-group">
+                    <label class="group-label">Message Purpose</label>
+                    <div class="radio-options">
+                        <label><input type="radio" name="purpose" id="inquiry" value="inquiry"
+                              checked> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" id="reservation"
+                              value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" id="website" value="website">
+                            Website
+                            Suggestion</label>
+                    </div>
+                </div>
+
+                <!-- message  -->
+                <div class="message-item">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <!-- newsletter button  -->
+                <div class="newsletter-checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly
+                        newsletter</label>
+                </div>
+
+                <!-- Get in touch button -->
+                <div class="submmit-button">
+                    <button type="submit" class="submmit-button">Get in Touch!</button>
+                </div>
+        </div>
+        </form>
+        </div>
+
+        <!-- Employees -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/male_ manager.jpeg" alt="Walt Johnson">
+                    <figcaption><strong>Walt Johnson</strong><br>Rafting Operations Manager
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/male_employee_instr.jpeg" alt="Helmer Hatch">
+                    <figcaption><strong>Helmer Hatch</strong><br>Senior Rafting Instructor
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/woman_employee.jpeg" alt="Lanon Turley">
+                    <figcaption><strong>Lanon Turley</strong><br>Experienced Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 | Whitewater Rafting | Alejandro Beltrán</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.svg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin_logo.svg" alt="Linkedin Icon"></a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_logo.svg" alt="Instagram Icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
