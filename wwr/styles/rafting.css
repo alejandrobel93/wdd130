@@ -373,7 +373,7 @@ footer {
     margin: 0;
     max-width: 800px;
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: start;
 
 }
@@ -389,7 +389,7 @@ footer {
 
 }
 
-.newsletter-form h3 {
+.newsletter-form h2 {
     padding: 1.5rem;
     color: black;
 }
@@ -446,21 +446,13 @@ footer {
 
 .btn-book {
     display: inline-block;
-    /* Permite aplicar padding y dimensiones correctamente */
     background-color: var(--secondary-color);
-    /* Color naranja */
     color: black;
-    /* Color del texto */
     text-decoration: none;
-    /* Elimina la línea subrayada por defecto del enlace */
     border-radius: 8px;
-    /* Bordes redondeados */
     padding: 12px 30px;
-    /* Espaciado interno (ancho y alto) */
     font-size: 16px;
-    /* Tamaño del texto */
     font-weight: bold;
-    /* Negrita */
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -468,7 +460,6 @@ footer {
 
 .btn-book:hover {
     background-color: #e08b45;
-    /* Tono naranja más oscuro al pasar el mouse */
 }
 
 .hero-trips .book-button button {
